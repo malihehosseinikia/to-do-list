@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="todo">
+            <div class="head d-flex">
+                <span class="fa fa-arrow-left icon-arr d-flex"></span>
+                <ul class="t-center">
+                    <li>Thu,July 6,2017</li>
+                    <li>6 tasks</li>
+                </ul>
+            </div>
+            <ul class="works" id="myUl">
+                <li class="d-flex">
+                    <p>Test use cases for the new tool</p>
+                    <span class="circle m-l"></span>
+                </li>
+                <li class="d-flex">
+                    <p>Send out emails</p>
+                    <span class="circle m-l"></span>
+                </li>
+                <li class="d-flex">
+                    <p>Daily UI practice</p>
+                    <span class="circle m-l"></span>
+                </li>
+                <li class="d-flex">
+                    <p>Driving practice</p>
+                    <span class="circle m-l"></span>
+                </li>
+                <li class="d-flex">
+                    <p>Water flowers</p>
+                    <span class="circle m-l"></span>
+                </li>
+                <li class="d-flex">
+                    <p>Upload PSD files Dropbox</p>
+                    <span class="circle m-l"></span>
+                </li>
+                <div class="d-flex">
+                    <input type="text" id="myInput" placeholder="Title...">
+
+                    <span class="addBtn d-flex m-l" onclick="newElement()"><i class="fa fa-plus"></i></span>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
